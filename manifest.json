@@ -1,0 +1,27 @@
+{
+  "name": "Zen Youtube",
+  "version": "1.0",
+  "description": "Hide comments and the recommended section on youtube",
+  "permissions": ["declarativeContent", "storage", "activeTab"],
+  "background": {
+    "scripts": ["background.js"],
+    "persistent": false
+  },
+  "page_action": {
+    "default_icon": {
+      "16": "images/zen16.png",
+      "32": "images/zen32.png",
+      "64": "images/zen64.png",
+      "128": "images/zen128.png"
+    },
+    "default_popup": "popup.html"
+  },
+  "icons": {
+    "16": "images/zen16.png",
+    "32": "images/zen32.png",
+    "64": "images/zen64.png",
+    "128": "images/zen128.png"
+  },
+
+  "manifest_version": 2
+}
